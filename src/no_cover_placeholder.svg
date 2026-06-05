@@ -1,0 +1,22 @@
+<svg width="300" height="360" viewBox="0 0 300 360" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>No cover available placeholder</title>
+  <desc>Book cover placeholder image for when no cover is available</desc>
+
+  <rect x="0" y="0" width="300" height="360" rx="6" fill="#E6F1FB"/>
+  <rect x="0" y="0" width="12" height="360" rx="2" fill="#B5D4F4"/>
+  <rect x="6" y="6" width="288" height="348" rx="4" fill="#F1EFE8"/>
+
+  <line x1="30" y1="110" x2="270" y2="110" stroke="#185FA5" stroke-width="0.8" stroke-opacity="0.2"/>
+  <line x1="30" y1="250" x2="270" y2="250" stroke="#185FA5" stroke-width="0.8" stroke-opacity="0.2"/>
+
+  <g transform="translate(150, 160)">
+    <rect x="-28" y="-36" width="56" height="72" rx="3" fill="none" stroke="#185FA5" stroke-width="2" stroke-opacity="0.4"/>
+    <line x1="-28" y1="-36" x2="28" y2="36" stroke="#185FA5" stroke-width="1" stroke-opacity="0.2"/>
+    <line x1="28" y1="-36" x2="-28" y2="36" stroke="#185FA5" stroke-width="1" stroke-opacity="0.2"/>
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#EF9F27" stroke-width="1.5" stroke-opacity="0.6"/>
+    <line x1="0" y1="-10" x2="0" y2="10" stroke="#EF9F27" stroke-width="1.5" stroke-opacity="0.7" stroke-linecap="round"/>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#EF9F27" stroke-width="1.5" stroke-opacity="0.7" stroke-linecap="round"/>
+  </g>
+
+  <text x="150" y="224" font-family="Georgia, serif" font-size="13" fill="#185FA5" fill-opacity="0.7" text-anchor="middle" letter-spacing="1">No cover available</text>
+</svg>
