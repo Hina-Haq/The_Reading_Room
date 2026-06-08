@@ -46,11 +46,7 @@ The final dataset contains **2,004 books**:
 - **1,004 from Goodreads**
 - **1,000 from Open Library**
 
-The final cleaned and concatenated file used for the app is:
-
-```text
-books_streamlit.csv
-```
+The final cleaned and concatenated file used for the app is: books_streamlit.csv
 
 ---
 
@@ -77,10 +73,6 @@ The app is designed to let users:
 - browse by genre,
 - receive a random recommendation,
 - and open Goodreads or Google Books links.
-
-### App preview
-
-[Insert app screenshot here]
 
 ---
 
