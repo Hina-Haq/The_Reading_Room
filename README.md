@@ -94,9 +94,6 @@ The-Reading-Room/
 │   ├── Database_Streamlit_Cleaning.ipynb
 │   └── app.py
 │
-├── 04. Presentation/
-│   └── the_reading_room_presentation.pptx
-│
 ├── src/
 │   └── logo_dark.svg
 │
