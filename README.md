@@ -79,26 +79,32 @@ The app is designed to let users:
 ## Project Structure
 
 ```text
-The-Reading-Room/
+The_Reading_Room/
 │
 ├── 01. Data/
+│   ├── books_cleaned.csv
 │   ├── books_combined.csv
+│   ├── books_streamlit.csv
 │   ├── books_with_clusters.csv
-│   └── books_streamlit.csv
+│   ├── goodreads_1000_full.csv
+│   └── openlibrary_1000.csv
 │
 ├── 02. Notebooks/
 │   ├── API_scraping.ipynb
-│   ├── Web_scraping.ipynb
 │   ├── Concat_feature_fixing_reading_room.ipynb
-│   ├── Prep_and_ML.ipynb
 │   ├── Database_Streamlit_Cleaning.ipynb
+│   ├── Prep_and_ML.ipynb
+│   ├── Web_scraping.ipynb
+│   ├── trials_scraping.ipynb
 │   └── app.py
 │
 ├── src/
 │   └── logo_dark.svg
 │
+├── the_reading_room_presentation.pptx
 └── README.md
 ```
+
 
 ---
 
