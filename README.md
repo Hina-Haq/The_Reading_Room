@@ -110,6 +110,6 @@ The_Reading_Room/
 
 ## Links
 
-- **Deployed Streamlit App:** [\[Add app link here\]](https://the-reading-room.streamlit.app/)
+- **Deployed Streamlit App:** [\[The Reading Room\]](https://the-reading-room.streamlit.app/)
 - **Presentation:** [Add presentation link here]
 
