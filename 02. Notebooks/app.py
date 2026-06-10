@@ -88,16 +88,28 @@ st.markdown("""
         border-radius: 8px;
     }
 </style>
-
-<div class="navbar">
-    <p class="navbar-title">📚 The Reading Room</p>
-    <p class="navbar-sub">Book Recommender</p>
+""", unsafe_allow_html=True)
+st.markdown("""
+<div class="navbar" style="display:flex; align-items:center; gap:1rem;">
+    <div style="background:#EF9F27; border-radius:8px; width:45px; height:45px; 
+                display:flex; flex-direction:column; justify-content:center; 
+                align-items:center; gap:5px; padding:8px; flex-shrink:0;">
+        <div style="background:#0C447C; height:3px; width:80%; border-radius:2px;"></div>
+        <div style="background:#0C447C; height:3px; width:80%; border-radius:2px;"></div>
+        <div style="background:#0C447C; height:3px; width:80%; border-radius:2px;"></div>
+        <div style="background:#0C447C; height:3px; width:50%; border-radius:2px; align-self:flex-start; margin-left:10%;"></div>
+    </div>
+    <div>
+        <p class="navbar-title">The Reading Room</p>
+        <p class="navbar-sub">Book Recommender</p>
+    </div>
 </div>
 <p class="tagline">Your next great read awaits</p>
 """, unsafe_allow_html=True)
 
+
 # Load data 
-df = pd.read_csv("books_streamlit.csv")
+df = pd.read_csv("01. Data/books_streamlit.csv")
 
 # Upgrade cover image quality
 df["cover_img_url"] = df["cover_img_url"].str.replace("-M.jpg", "-L.jpg", regex=False)
@@ -225,7 +237,7 @@ if selected_title:
         if pd.notna(book["cover_img_url"]):
             st.image(book["cover_img_url"], width=150)
         else:
-            st.image("no_cover_placeholder.png", width=200)
+            st.image("src/no_cover_placeholder.png", width=200)
 
     with col2:
         st.markdown(f"### {book['title']}")
@@ -313,6 +325,7 @@ if selected_title:
                     st.markdown("---")
 
 # ── Footer ───────────────────────────────────────────────────
+st.markdown("<br>" * 15, unsafe_allow_html=True)
 st.markdown("""
 <div style="text-align:center; color:#666; font-size:0.8rem; padding:1rem;">
     © 2026 The Reading Room · All Rights Reserved<br>

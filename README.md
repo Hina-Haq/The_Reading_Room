@@ -1,6 +1,5 @@
 <div align="center">
   <img src="./src/logo_dark.svg" alt="The Reading Room logo" width="180">
-  
 
 # The Reading Room
 
