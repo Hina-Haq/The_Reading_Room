@@ -117,4 +117,4 @@ The_Reading_Room/
 ## Links
 
 - **Deployed Streamlit App:** [\[The Reading Room\]](https://the-reading-room.streamlit.app/)
-- **Presentation:** [\[PDF Presentation\]] [https://github.com/Hina-Haq/The_Reading_Room/blob/main/the_reading_room_presentation%20.pdf]
+- **Presentation:** [\[PDF Presentation\]](https://github.com/Hina-Haq/The_Reading_Room/blob/main/the_reading_room_presentation%20.pdf)
